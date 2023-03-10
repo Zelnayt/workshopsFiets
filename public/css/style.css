@@ -3,6 +3,8 @@
     margin: 0 auto;
 }
 
+/* header */
+
 #header {
     background-color: #487dfa;
     min-height: 100px;
@@ -56,6 +58,8 @@
     margin-left: 10%;
 }
 
+/* slider */
+
 .box
 {
     width: 100%;
@@ -85,9 +89,11 @@
     display: none;
 }
 
+/* footer */
+
 footer {
     background-color: #3c6bd7;
-    min-height: 100px;
+    height: 250px;
     width: 100%;
 }
 
@@ -96,6 +102,7 @@ footer {
     margin: 15px;
     border-radius: 15px;
     padding: 15px;
+    width: 40%;
 }
 
 #footer-right {
@@ -103,6 +110,7 @@ footer {
     margin: 15px;
     border-radius: 15px;
     padding: 15px;
+    width: 40%;
 }
 
 #footer-container {
@@ -111,4 +119,91 @@ footer {
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+/* assortiment */
+
+#as-hr {
+    margin: 0;
+    border: 1px solid #231b4d;
+}
+
+#as-body {
+    background-color: #f6f6f6;
+    min-height: 100px;
+    width: 100%;
+}
+
+#as-title {
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #f39200;
+}
+
+#as-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#as-card {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #9fbcff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#as-card img {
+    width: 200px!important;
+    height: 150px!important;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#as-card-description {
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#as-card-button a {
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background-color: #231b4d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#as-card-button {
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#as-card-button a:hover {
+    background-color: #f39200;
+    color: #231b4d;
+    font-weight: 600;
+    cursor: pointer;
 }
