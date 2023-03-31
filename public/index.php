@@ -10,10 +10,10 @@
     <meta name="Workshops" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>VonkTweewielers</title>
-    
+    <script src="js/nieuwsbrief.js"></script>
 </head>
 <body>
-    
+        
 
 </body>
 </html>
